@@ -1,0 +1,44 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"health_and_safety\"}}]": "utter_ask_health_and_safety",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"health_and_safety\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_health_and_safety\"}, \"user\": {\"intent\": \"health_and_safety\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"shipping_and_packaging\"}}]": "utter_ask_shipping_and_packaging",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"shipping_and_packaging\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_shipping_and_packaging\"}, \"user\": {\"intent\": \"shipping_and_packaging\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"personal_care\"}}]": "utter_ask_personal_care",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"personal_care\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_personal_care\"}, \"user\": {\"intent\": \"personal_care\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"product_authenticity\"}}]": "utter_ask_product_authenticity",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"product_authenticity\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_product_authenticity\"}, \"user\": {\"intent\": \"product_authenticity\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "utter_iamabot",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accessories_and_attachments\"}}]": "utter_ask_accessories_and_attachments",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accessories_and_attachments\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_accessories_and_attachments\"}, \"user\": {\"intent\": \"accessories_and_attachments\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"electronics\"}}]": "utter_ask_electronics",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"electronics\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_electronics\"}, \"user\": {\"intent\": \"electronics\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"warranty_and_customer_support\"}}]": "utter_warranty_and_customer_support_response",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"warranty_and_customer_support\"}}, {\"prev_action\": {\"action_name\": \"utter_warranty_and_customer_support_response\"}, \"user\": {\"intent\": \"warranty_and_customer_support\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"usage_instructions\"}}]": "utter_ask_usage_instructions",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"usage_instructions\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_usage_instructions\"}, \"user\": {\"intent\": \"usage_instructions\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"product_comparison\"}}]": "utter_ask_product_comparison",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"product_comparison\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_product_comparison\"}, \"user\": {\"intent\": \"product_comparison\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fragrances\"}}]": "utter_ask_fragrances",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fragrances\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_fragrances\"}, \"user\": {\"intent\": \"fragrances\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ingredient_specific_questions\"}}]": "utter_ask_ingredient_specific_questions",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ingredient_specific_questions\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_ingredient_specific_questions\"}, \"user\": {\"intent\": \"ingredient_specific_questions\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_challenge\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]"
+    ]
+  }
+}
